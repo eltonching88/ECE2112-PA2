@@ -8,7 +8,7 @@
 <br/>
 
 <a name="anchor-normalization"></a>
-## **Normalization Problem**
+## **I. Normalization Problem**
 * Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
 * ###  $`Z = \frac{X - x}{σ}`$
@@ -75,7 +75,7 @@ Stored Values:
 
 
 <a name="anchor-divby3"></a>
-## **Divisible by 3 Problem**
+## **II. Divisible by 3 Problem**
 * Create a 10 x 10 ndarray, which is the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy.
 
 
