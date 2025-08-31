@@ -11,7 +11,7 @@
 ## **Normalization Problem**
 * Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
-*  $` Z = (X - x̄) / σ `$ 
+* ###  $`Z = \frac{X - x}{σ}`$
 
 * In Python, element-wise mean and element-wise standard deviation can be obtained by using `.mean()` and `.std()` calls.
 In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X. Save your normalized ndarray as X_normalized.npy
@@ -30,7 +30,7 @@ X = np.random.random( (5,5) )
 ```
 <br/>
 
-**Step 3.** Using the provided syntaxes `.mean()` and `.std()` and the given formula $`Z = (X-x̄)/σ`$, I stored the normalized values in a new array `X_normalized`. Translating the formula into Python, the mean array `X.mean()` is first subtracted from the original array `X`, then it is divided by the standard deviation array `X.std()`. Lastly, we save the data using `.save()`, which downloads the array as a .npy file.
+**Step 3.** Using the provided syntaxes `.mean()` and `.std()` and the given formula, I stored the normalized values in a new array `X_normalized`. Translating the formula into Python, the mean array `X.mean()` is first subtracted from the original array `X`, then it is divided by the standard deviation array `X.std()`. Lastly, we save the data using `.save()`, which downloads the array as a .npy file.
 ``` python
 # Using the formula and code providedx
 X_normalized = (X - X.mean()) / X.std()
