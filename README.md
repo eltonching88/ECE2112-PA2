@@ -2,10 +2,55 @@
 
 <a id="top"></a>
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting_started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#problems">Sample Problems</a>
+      <ul>
+        <li><a href="#normalization">Normalization Problem</a></li>
+      </ul>
+      <ul>
+        <li><a href="#divisible">Divisible by 3 Problem</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+
 ## Table of Contents
+### 1. About the Project
+### 2. Getting Started
+### 3. Sample Problems
+
 ### 1. [Normalization Problem](#anchor-normalization)
 ### 2. [Divisible by 3 Problem](#anchor-divby3)
 <br/>
+
+<a id="normalization"></a>
+## About the Project
+- Programming Assignment 2 is about identifying the codes and functions in the NumPy library and applying them in creating a Python program.
+
+
+## Getting Started
+- To run the given code, follow these instructions:
+
+### Instructions
+1. Install **Anaconda Navigator** at https://www.anaconda.com/download
+2. Open **Jupyter notebook**
+3. Download _2ECEB_CHING_PA2.ipynb_
+4. Run the program 
+<br/>
+
 
 <a name="anchor-normalization"></a>
 ## **I. Normalization Problem**
@@ -141,13 +186,10 @@ Saved Values:
  2025 2304 2601 2916 3249 3600 3969 4356 4761 5184 5625 6084 6561 7056
  7569 8100 8649 9216 9801]
 ```
-
-<br/>
 <br/>
 
-**Author**: Elton Ching (2ECE-B)
-
-
-**Nothing follows. Thank you for reading!** 
+## **Author** 
+- Name: Elton Ching
+- Section: 2ECE-B
 
 <p align="right"> (<a href="#top">Back to Top</a>) </p>
