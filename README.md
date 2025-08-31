@@ -2,58 +2,35 @@
 
 <a id="top"></a>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting_started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#problems">Sample Problems</a>
-      <ul>
-        <li><a href="#normalization">Normalization Problem</a></li>
-      </ul>
-      <ul>
-        <li><a href="#divisible">Divisible by 3 Problem</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-
 ## Table of Contents
-### 1. About the Project
-### 2. Getting Started
-### 3. Sample Problems
+1. [About the Project](#a-about)
+2. [Getting Started](#a-getting_started)
+   - [Instructions](#a-instructions)
+4. [Sample Problems](#a-problems)
+   - [Normalization Problem](#a-normalization)
+   - [Divisible by 3 Problem](#a-divby3)
+5. [Author](#a-author)
 
-### 1. [Normalization Problem](#anchor-normalization)
-### 2. [Divisible by 3 Problem](#anchor-divby3)
-<br/>
-
-<a id="normalization"></a>
+<a name="a-about"></a>
 ## About the Project
 - Programming Assignment 2 is about identifying the codes and functions in the NumPy library and applying them in creating a Python program.
 
-
+<a name="a-getting_started"></a>
 ## Getting Started
 - To run the given code, follow these instructions:
+  
+<a name="a-instructions"></a>
+ ### Instructions
+ 1. Install **Anaconda Navigator** at https://www.anaconda.com/download
+ 2. Open **Jupyter notebook**
+ 3. Download and open _2ECEB_CHING_PA2.ipynb_
+ 4. Run the program 
 
-### Instructions
-1. Install **Anaconda Navigator** at https://www.anaconda.com/download
-2. Open **Jupyter notebook**
-3. Download _2ECEB_CHING_PA2.ipynb_
-4. Run the program 
-<br/>
+<a name="a-problems"></a>
+## Sample Problems:
 
-
-<a name="anchor-normalization"></a>
-## **I. Normalization Problem**
+<a name="a-normalization"></a>
+## **1. Normalization Problem**
 * Normalization is one of the most basic preprocessing techniques in data analytics. This involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as:
 
 * ###  $`Z = \frac{X - x}{σ}`$
@@ -119,8 +96,8 @@ Stored Values:
 <br/>
 
 
-<a name="anchor-divby3"></a>
-## **II. Divisible by 3 Problem**
+<a name="a-divby3"></a>
+## **2. Divisible by 3 Problem**
 * Create a 10 x 10 ndarray, which is the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy.
 
 
@@ -188,6 +165,7 @@ Saved Values:
 ```
 <br/>
 
+<a name="a-author"></a>
 ## **Author** 
 - Name: Elton Ching
 - Section: 2ECE-B
