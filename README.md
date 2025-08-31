@@ -23,7 +23,7 @@ import numpy as np
 ```
 <br/>
 
-**Step 2.** I used  `np.random.random((a,b))` to generate a 5x5 matrix with randomized values.
+**Step 2.** I used  `np.random.random()` to generate a 5x5 matrix with randomized values.
 ``` python
 # A 5x5 array with randomized values
 X = np.random.random( (5,5) ) 
